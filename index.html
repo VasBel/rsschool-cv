@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasilii_Belyachkov_CV</title>
+    <link rel="icon" href="./assets/img/Icon1.png" type="image/x-icon">
+    <link rel="icon" href="./assets/img/Icon2.png" type="image/x-icon">
+    <link rel="icon" href="./assets/img/Icon3.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navigation">
+                <ul class="nav-list">
+                    
+                    <li class="nav-items"><a href="#experience" class="nav-links">Experience</a></li>
+                    <li class="nav-items"><a href="#courses" class="nav-links">Courses</a></li>
+                    <li class="nav-items"><a href="#contact" class="nav-links">Contacts</a></li>
+                    <li class="nav-items"><a href="#about" class="nav-links">About</a></li>
+                    <li class="nav-items"><a href="#skills" class="nav-links">Skills</a></li>
+                    <li class="nav-items"><a href="#code" class="nav-links">Code</a></li>
+                    <li class="nav-items"><a href="#ed" class="nav-links">Education</a></li>
+                    <li class="nav-items"><a href="#ln" class="nav-links">Languages</a></li>
+                </ul>
+            </nav>
+        </div>   
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section-profile" id="profile">
+                <img src="./assets/img/Ava.png" alt="Avatar"> 
+                <div class="section-profile-title">
+                    <h1 class="section-title">Vasilii Belyachkov</h1>
+                
+                    <h2 class="section-title">Intern Frontend Developer</h2>
+                </div>
+            </section>
+
+            <section class="section section-contacts" id="contact">
+                <h2 class="section-title">Contact information:</h2>
+        
+                <ul class="contacts-list not-main-text">
+                    <li class="Location"><b>Minsk,Belarus</b></li>
+                    <li class="phone"><b>Phone: </b>+375296534401</li>
+                    <li class="discord"><b>Discord: </b>Vasya_bel</li>
+                    <li class="email"><b>Email: </b><a href="mailto:vasilii.belyachkov@gmail.com" class="contact-links">vasilii.belyachkov@gmail.com</a></li>
+                    <li class="tg"><b>Telegram: </b><a href="https://t.me/vasya_bel" class="contact-links">@Vasya_bel</a></li>
+                    <li class="in"><b>LinkedIn: </b><a href="https://www.linkedin.com/in/belyachkov/" class="contact-links">Belyachkov</a></li>
+                    <li class="git"><b>GitHub: </b><a href="https://github.com/VasBel" class="contact-links">VasBel</a></li>
+                    
+                </ul>
+            </section>
+
+            <section class="section" id="ed">
+                <h2 class="section-title">Education:</h2>
+
+                <ul class="not-main-text">
+                    <li>Higher.</li>
+                    <li>Belarusian state university of informatics and radioelectronics (BSUIR).</li>
+                    <li>Faculty of engineering and economics (IEF).</li>
+                    <li>Specialty: e-marketing.</li>
+                    <li>Qualification: marketer-programmer</li>
+                </ul>
+            </section>
+
+            <section class="section" id="about">
+                <h2 class="section-title">About myself:</h2>
+                <span class="not-main-text">I have a universal mindset and wish to start a Frontend-developer career alongside with expanding my programming skills</span>
+                
+            </section>
+
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills and proficiency:</h2>
+                <ul class="not-main-text">
+                    <li>HTML5,CSS3, Basics</li>
+                    <li>Python Basics</li>
+                    <li>VSCode Basics</li>
+                </ul>
+                
+            </section>
+
+            <section class="section" id="courses">    
+                <h2 class="section-title not-main-text">Courses:</h2>
+
+                <ul class="not-main-text">
+                    <li>Python on sololearn.com</li>
+                    <li>HTML on sololearn.com</li>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ul>
+            </section>
+            
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code examples:</h2>
+                <span class="not-main-text">Return the number (count) of vowels in the given string. We will consider a, e, i, o, u as vowels for this Kata (but not y). The input string will only consist of lower case letters and/or spaces.</span>
+                <h3 class="not-main-text">Solution:</h3>
+                <div class="not-main-text-small">
+                    <pre class="hljs" style="display: block; overflow-x: auto; background: rgb(0, 0, 0); color: rgb(234, 234, 234); padding: 0.5em;"><span class="hljs-function"><span class="hljs-keyword" style="color: rgb(195, 151, 216);">function</span> <span class="hljs-title" style="color: rgb(122, 166, 218);">getCount</span>(<span class="hljs-params" style="color: rgb(231, 140, 69);">str</span>) </span>{
+                        <span class="hljs-keyword" style="color: rgb(195, 151, 216);">let</span> vowelsCount = <span class="hljs-number" style="color: rgb(231, 140, 69);">0</span>;
+                        <span class="hljs-keyword" style="color: rgb(195, 151, 216);">for</span>(<span class="hljs-keyword" style="color: rgb(195, 151, 216);">let</span> i = <span class="hljs-number" style="color: rgb(231, 140, 69);">0</span>; i &lt; str.length; i++){
+                            <span class="hljs-keyword" style="color: rgb(195, 151, 216);">if</span>((str[i] == <span class="hljs-string" style="color: rgb(185, 202, 74);">'a'</span>) || (str[i] == <span class="hljs-string" style="color: rgb(185, 202, 74);">'e'</span>) || (str[i] == <span class="hljs-string" style="color: rgb(185, 202, 74);">'i'</span>) || (str[i] == <span class="hljs-string" style="color: rgb(185, 202, 74);">'o'</span>) || (str[i] == <span class="hljs-string" style="color: rgb(185, 202, 74);">'u'</span>)){
+                                vowelsCount++;
+                            }
+                        }
+                        <span class="hljs-keyword" style="color: rgb(195, 151, 216);">return</span> vowelsCount;
+                    }</pre>
+                </div>
+                
+            </section>
+            
+            <section class="section" id="experience">
+               
+                <h2 class="section-title not-main-text">Experience:</h2>
+
+                <ul class="not-main-text">
+                    <li>CV project for RS School</li>
+                </ul> 
+            
+            </section>
+
+            <section class="section" id="ln">
+
+                <h2 class="section-title">Languages:</h2>
+
+                <ul class="not-main-text">
+                    <li>Russian - Native</li>
+                    <li>English - B1</li>
+                    <li>Belarusian - Intermediate</li>
+                </ul>
+                
+            </section>
+        </div>
+        
+    </main>
+
+    <footer class="footer not-main-text">
+        <div class="container">
+            <ul class="footer-list">
+                <li class="footer-items"><p class="footer-links">© 2022 by Vasilii Belyachkov</p></li>
+                <li class="footer-items"><p><a href="https://github.com/VasBel" class="footer-links">GitHub</a></p></li>
+                <li class="footer-items"><p><a href="https://www.linkedin.com/in/belyachkov/" class="footer-links">LinkedIn</a></p></li>
+                <li class="footer-items"><p><a href="https://rs.school/js/" class="footer-links rslog"><img src="assets/img/RSLogo.png" alt="RSSchool" ></a></p></li>
+            </ul>
+        </div>
+    </footer>
+   
+</body>
+</html>
